@@ -1,0 +1,24 @@
+
+public class CGPA {
+	
+	public static void main (String[] args) {
+		float sem1 = (float)3.65;
+		float sem2 = (float)3.18;
+		float sem3 = (float)4.00;
+		
+		float cgpa = (sem1 + sem2 + sem3)/3;
+		
+		String studentName; 
+		String studentID;
+		
+		studentName ="Shreethaar A/L Arunagirinathan";
+		studentID = " F01390: ";
+		
+		System.out.println("GPA Semester 1: " + sem1);
+		System.out.println("GPA Semester 2: " + sem2);
+		System.out.println("GPA Semester 3: " + sem3);
+		System.out.print(studentName + studentID + "Total CGPA " + cgpa );
+		
+	}
+
+}
