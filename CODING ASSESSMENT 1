@@ -1,0 +1,45 @@
+package numericData;
+
+public class Exercise1 {
+	
+	public static void main (String[] args) {
+	int number1 = 11;
+	int number2 = 22;
+	int number3 = 33;
+	int number4 = 44;
+	int number5 = 55;
+	int totalnumber=5;
+	double number6=66;
+	double number7=77;
+	float number8=88;
+	float number9=99;
+	double multiplication;
+	int sum;
+	int average;
+	double divide;
+	float divide1;
+	float play;
+
+	
+	
+	sum = number1 + number2 + number3 + number4 +number5;
+	average = sum/totalnumber;
+	divide=number7/number6;
+	divide1=number9/number8;
+	multiplication= number1*number2*number3*number4*number5*number6*number7*number8*number9;
+	play= (number1*number2)/number3;
+	
+	
+	System.out.print("The sum is ");
+	System.out.print(sum);
+	System.out.print("\nThe average is ");
+	System.out.print(average);
+	System.out.printf("The divider for number5 with number2 is :%.2f ",divide);
+	System.out.printf("\nThe divider for number9 with number8 is %.2f" ,divide1);
+	System.out.println("\nThe multiplication is "+multiplication);
+	System.out.printf("The ans for play is :%.2f ",play);
+	}
+	
+	
+
+}
