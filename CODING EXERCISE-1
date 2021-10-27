@@ -1,0 +1,54 @@
+package string;
+
+public class RectangleComputation {
+	
+	public static void main (String[] args) {
+		
+		double length;
+		double width;
+		double area;
+		double perimeter;
+		
+		length = 69.6969;
+		width = 420.8887;
+		area = (length*width);
+		perimeter = (2*length)+(2*width);
+		
+		System.out.println("The area is " + area);
+		System.out.println("The perimeter is " + perimeter);
+		
+	}
+}
+
+
+package string;
+
+public class CylinderComputation {
+	
+	public static void main (String[] args) {
+		
+		double radius;
+		double height;
+		final double Pi;
+		double surfaceArea;
+		double baseArea;
+		double volume;
+		
+		radius = 69.6969;
+		height = 9413; //9413 in canto, if u know, u know HUEHUE
+		Pi = 3.14159265359; 
+		surfaceArea = (2*Pi*radius*height) + (2*Pi*(radius*radius));
+		baseArea = Pi*(radius*radius);
+		volume = Pi*(radius*radius)*height;
+		
+		System.out.println("The surface area of the cylinder is " + surfaceArea);
+		System.out.println("The base area of the cylinder is " + baseArea);
+		System.out.println("The volume of the cylinder is " + volume);
+		
+	}
+	
+
+
+}
+
+
